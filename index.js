@@ -5,10 +5,10 @@ function updateObjectWithKeyAndValue(object, key, value) {
   return recipes;
 }
 
-// function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
-//   delete key.value;
-//   return recipes;
-// }
+function destructivelyUpdateObjectWithKeyAndValue(object, key, value) {
+  delete key.value;
+  return recipes;
+}
 //
 // function deleteFromObjectByKey(object, key) {
 //   var newRecipes = Object.assign({}, object);
